@@ -1,0 +1,15 @@
+<div class="row-fluid">
+    <div class="span5">
+        <div class="btn-group">
+            <button class="btn" ng-click="addComponent(type)" ng-repeat="type in componentTypeList">
+                {{type.name}}
+            </button>
+        </div>
+    </div>
+    <div class="span5">
+        <app-device template-data="templateData"></app-device>
+    </div>
+    <div class="span2" style="color: black;">
+        <app-config component-data="currentComponentData"></app-config>
+    </div>
+</div>
