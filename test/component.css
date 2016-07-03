@@ -1,0 +1,27 @@
+.marvel-device .ui-device-screen.screen {
+    color: black;
+    z-index: 4;
+}
+
+.app-device-screen {
+    margin: 0;
+    padding: 10px;
+}
+
+.app-device-screen li {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.app-device-screen li.active {
+    background: lightblue;
+}
+
+.app-device-component-toolkit {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
